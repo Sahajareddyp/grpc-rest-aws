@@ -159,7 +159,7 @@ Clone the Repository. In terminal, navigate to the repository and run the below 
 
 ### YouTube Link
 
-- YouTube link of the video that documents all steps of the deployment and execution : [YouTube Link]()
+- YouTube link of the video that documents all steps of the deployment and execution : [YouTube Link](https://youtu.be/Md5WAIMmZfo)
 
 ### References
 
