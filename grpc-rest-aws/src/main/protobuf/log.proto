@@ -1,0 +1,29 @@
+//syntax = "proto3";
+
+// https://scalapb.github.io/docs/grpc
+// defines the package the template files will be created
+//option java_package = "com.hw2.protos";
+//package com.example.protos;
+
+
+// te gRPC client will make single request to server and gets a single response back
+syntax = "proto3";
+
+//option java_multiple_files = true;
+//option java_package = "io.grpc.examples.helloworld";
+//option java_outer_classname = "HelloWorldProto";
+//option objc_class_prefix = "HLW";
+
+service Greeter {
+  rpc FindLog (LambdaRequest) returns (LambdaReply) {}
+}
+
+// The request message containing the user's name.
+message LambdaRequest {
+  string time = 1;
+  string bucket = 2;
+}
+
+message LambdaReply {
+  string result = 1;
+}
